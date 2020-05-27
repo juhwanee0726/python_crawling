@@ -1,0 +1,8 @@
+{
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36 Edg/81.0.416.77",
+    "url": "http://prod.danawa.com/info/?pcode=7658077&keyword=%EC%97%90%EC%96%B4%ED%8C%9F&cate=1029029",
+    "selection_mallList": "tbody[class=high_list] > tr",
+    "selection_price": "td[class=price] > a > span[class=txt_prc] > em",
+    "selection_shippingCost": "td[class=ship] > div > span",
+    "selection_href": "td[class=price] > a"
+}
