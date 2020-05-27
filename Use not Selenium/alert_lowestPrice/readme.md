@@ -42,7 +42,7 @@
     pip install requests
     pip install python-telegram-bot
     pip install beautifulsoup4
-(선택)pip install lxml
+    (선택)pip install lxml
     ```
 
     위 명령어들을 `cmd` (명령 프롬프트)에 입력하면 됩니다.
@@ -64,7 +64,7 @@
   #### `wait_time.txt`
 
   ```
-N
+  N
   ```
 
   `N`에 몇 분마다 새로고침 할 건지 분 단위로 넣습니다. ex) `30`을 넣을 경우 30분 간격으로 실행
@@ -79,7 +79,7 @@ N
   {
     "token": "Your_token",
       "chat_id": "Your_id"
-}
+  }
   ```
 
   `Your_token`과 `Your_id`에 발급받은 자신의 텔레그램 API_token과 Chat ID을 넣습니다.
@@ -94,7 +94,7 @@ N
       "selection_price": "td[class=price] > a > span[class=txt_prc] > em",
     "selection_shippingCost": "td[class=ship] > div > span",
       "selection_href": "td[class=price] > a"
-}
+  }
   ```
 
    `Your_url`에 최저가를 검색할 상품 페이지 사이트 주소를 넣으면 됩니다. (`추가 설명` 참고)
@@ -111,7 +111,7 @@ N
 
   ![product_page](./img_readme/product_page.png)
 
-  (예시 페이지: [http://prod.danawa.com/info/?pcode=7658077&keyword=에어팟 2&cate=1029029](http://prod.danawa.com/info/?pcode=7658077&keyword=에어팟 2&cate=1029029))
+  (예시 페이지: http://prod.danawa.com/info/?pcode=7658077&keyword=%EC%97%90%EC%96%B4%ED%8C%9F2&cate=1029029)
   
   `실행과정 1, 2`와 `web.json`에서 언급했던 상품 페이지는 위와 같습니다.
   
@@ -173,8 +173,8 @@ N
 
 ## 패치 내역
 
-(2022-05-26) 첫 github 등록!
+(2022-05-27) 첫 github 등록!
 
 
 
--2022.05.26 21:40-
+-2022.05.27 19:48-
