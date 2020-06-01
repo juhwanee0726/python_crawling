@@ -77,7 +77,7 @@
   
   ```json
   {
-    "token": "Your_token",
+      "token": "Your_token",
       "chat_id": "Your_id"
   }
   ```
@@ -92,7 +92,7 @@
       "url": "Your_url",
       "selection_mallList": "tbody[class=high_list] > tr",
       "selection_price": "td[class=price] > a > span[class=txt_prc] > em",
-    "selection_shippingCost": "td[class=ship] > div > span",
+      "selection_shippingCost": "td[class=ship] > div > span",
       "selection_href": "td[class=price] > a"
   }
   ```
